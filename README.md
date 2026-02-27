@@ -36,7 +36,7 @@ This implementation leverages GPU computing to significantly improve simulation 
 
 ## Requirements
 
-- MATLAB (R20XX or later recommended)
+- MATLAB (R2020 or later recommended)
 - Parallel Computing Toolbox
 - CUDA-enabled NVIDIA GPU
 
@@ -47,26 +47,8 @@ This implementation leverages GPU computing to significantly improve simulation 
 
 If you use this code in your research, please cite the following paper:
 
-**Plain Text Citation**
-
-Author(s),  
-"Application of GPU-Accelerated FDTD Method to Electromagnetic Wave Propagation in Plasma Using MATLAB Parallel Processing Toolbox,"  
-arXiv preprint arXiv:2211.05647. 2022 Nov 10.  
-DOI: [10.48550/arXiv.2211.05647](https://doi.org/10.48550/arXiv.2211.05647)
+* Dodge S, Shafiee M, Shokri B. "Application of GPU-Accelerated FDTD Method to Electromagnetic Wave Propagation in Plasma Using MATLAB Parallel Processing Toolbox," arXiv preprint arXiv:2211.05647. 2022 Nov 10. DOI: [10.48550/arXiv.2211.05647](https://doi.org/10.48550/arXiv.2211.05647)
 
 ---
 
-**BibTeX**
-
-```bibtex
-@article{yourkey2024,
-  author  = {Author1 and Author2 and Author3},
-  title   = {Application of GPU-Accelerated FDTD Method to Electromagnetic Wave Propagation in Plasma Using MATLAB Parallel Processing Toolbox},
-  journal = {Journal Name},
-  volume  = {XX},
-  number  = {XX},
-  pages   = {XX--XX},
-  year    = {2024},
-  doi     = {xx.xxxx/xxxxx}
-}
 
