@@ -32,18 +32,6 @@ This implementation leverages GPU computing to significantly improve simulation 
 - **Visualization Tools**  
   Includes field visualization routines for monitoring electric and magnetic field evolution.
 
-
-## Performance Considerations
-
-GPU execution significantly outperforms serial CPU execution for large-scale 3D simulations. However, MATLAB performance optimization remains essential. To maximize speed:
-
-- Avoid unnecessary `for` loops  
-- Minimize array indexing inside update equations  
-- Prefer vectorized operations  
-- Preallocate arrays before simulation  
-
-Proper coding practices combined with GPU acceleration result in substantial computational speedup.
-
 ---
 
 ## Requirements
@@ -54,7 +42,6 @@ Proper coding practices combined with GPU acceleration result in substantial com
 
 ---
 
----
 
 ## 📌 Citation
 
@@ -64,8 +51,8 @@ If you use this code in your research, please cite the following paper:
 
 Author(s),  
 "Application of GPU-Accelerated FDTD Method to Electromagnetic Wave Propagation in Plasma Using MATLAB Parallel Processing Toolbox,"  
-*Journal Name*, vol. XX, no. XX, pp. XX–XX, Year.  
-DOI: xx.xxxx/xxxxx
+arXiv preprint arXiv:2211.05647. 2022 Nov 10.  
+DOI: [10.48550/arXiv.2211.05647](https://doi.org/10.48550/arXiv.2211.05647)
 
 ---
 
